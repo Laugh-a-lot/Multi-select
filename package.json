@@ -2,6 +2,7 @@
   "name": "zepto-assignment",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://laugh-a-lot.github.io/Multi-select/",
   "type": "module",
   "scripts": {
     "dev": "vite",
