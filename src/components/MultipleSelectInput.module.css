@@ -8,6 +8,7 @@
 }
 
 .suggestions {
+    display: none;
     background-color: white;
     /* border: 2px solid black; */
     box-shadow:  5px 5px 10px gray;
@@ -60,6 +61,9 @@ padding: 4px 16px;
         padding: 8px;
         margin-right: 8px;
     }
+}
+.label:focus-within .suggestions, .label:active .suggestions{
+    display: block;
 }
 
 .flag {
