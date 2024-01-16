@@ -29,3 +29,22 @@ export default {
 - Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
 - Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
 # Multi-select
+You have to design and implement a chip component that looks like below
+
+
+Specifications
+When you click on the input field, a list of items will appear.
+As you type, the list should show only items that match what you're typing.
+Clicking on an item should turn it into a chip at the top, and the input field should adjust automatically.
+Once an item becomes a chip, it should no longer be in the list.
+Each chip has an "X" icon. Clicking it removes the chip and adds the item back to the list.
+
+Bonus Task
+Clean code.
+TypeScript
+When the input is blank and the user presses backspace, the last chip (for example, Nick Giannopoulos) should get highlighted and on again pressing backspace it should get deleted
+
+Notes
+Make sure you code your solution in React (CRA/NextJS).
+Make sure you build the component from scratch and do not use any component based library like MUI, Chakra UI etc.
+You are free to use CSS solutions like TailwindCss/SCSS.
